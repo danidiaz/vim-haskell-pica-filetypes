@@ -16,7 +16,7 @@ Basic syntax highlighting for the *cabal-project* and *cabal-config* filetypes.
 
 - This plugin adds the single quote `'` to `iskeyword` for the `haskell` filetype—reasonable, because it is a valid part of identifiers).
 
-- This plugin adds the hypen `-` to `iskeyword` for the `haskell`, `cabal-project` and `cabal-config` filetypes—reasonable, because many stanza names and package names have hypens.
+- This plugin adds the hypen `-` to `iskeyword` for the `cabal`, `cabal-project` and `cabal-config` filetypes—reasonable, because many stanza names and package names have hypens.
 
 `iskeyword` affects the behaviour of commands like normal mode `w`. See :h 'iskeyword'.
 

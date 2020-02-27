@@ -20,10 +20,10 @@ Filetype detection for the following files:
 ==============================================================================
 SYNTAX HIGHLIGHTING				*haskell-pica-filetypes-syntax*
 
-Syntax files for the cabal-project and cabal-config filetypes.
+Basic syntax highlighting for the cabal-project and cabal-config filetypes.
 
 ==============================================================================
-ISKEYWORD CHANGES	    		*haskell-pica-filetypes-iskeyword*
+ISKEYWORD CHANGES			*haskell-pica-filetypes-iskeyword*
 
 The single quote ' is added to 'iskeyword' for the haskell filetype.
 
