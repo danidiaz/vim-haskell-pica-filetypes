@@ -8,6 +8,10 @@ This plugin provides filetype detection for the following files:
 - `cabal.project.local` as filetype *cabal-project*
 - `cabal.config` and `*/cabal/config` as filetype *cabal-config*
 
+## syntax highlighting
+
+Basic syntax highlighting for the *cabal-project* and *cabal-config* filetypes.
+
 ## changes to 'iskeyword'
 
 - This plugin adds the single quote `'` to `iskeyword` for the `haskell` filetype—reasonable, because it is a valid part of identifiers).

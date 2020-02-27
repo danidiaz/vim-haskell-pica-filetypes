@@ -1,0 +1,40 @@
+
+*haskell-pica-filetypes.txt*  Filetype dectection for some Haskell file types.
+
+CONTENTS				     
+
+Filetype detection	|haskell-pica-filetypes-detect|
+Syntax highlighting	|haskell-pica-filetypes-syntax|
+iskeyword changes	|haskell-pica-filetypes-iskeyword|
+Changelog		|haskell-pica-filetypes-changelog|
+
+==============================================================================
+FILETYPE DETECTION				*haskell-pica-filetypes-detect*
+
+Filetype detection for the following files:
+
+- cabal.project as filetype cabal-project
+- cabal.project.local as filetype cabal-project
+- cabal.config and */cabal/config as filetype cabal-config
+
+==============================================================================
+SYNTAX HIGHLIGHTING				*haskell-pica-filetypes-syntax*
+
+Syntax files for the cabal-project and cabal-config filetypes.
+
+==============================================================================
+ISKEYWORD CHANGES	    		*haskell-pica-filetypes-iskeyword*
+
+The single quote ' is added to 'iskeyword' for the haskell filetype.
+
+The hypen - is added to 'iskeyword' for the cabal, cabal-project and
+cabal-config filetypes.
+
+==============================================================================
+CHANGELOG				      *haskell-pica-filetypes-changelog*
+
+1.0.0	2020-02-27		     
+	- First release.
+
+==============================================================================
+vim:tw=78:ts=8:ft=help:norl:fen:fdl=0:fdm=marker:noet:
