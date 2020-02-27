@@ -18,7 +18,7 @@ Basic syntax highlighting for the *cabal-project* and *cabal-config* filetypes.
 
 - This plugin adds the hypen `-` to `iskeyword` for the `cabal`, `cabal-project` and `cabal-config` filetypes—reasonable, because many stanza names and package names have hypens.
 
-`iskeyword` affects the behaviour of commands like normal mode `w`. See :h 'iskeyword'.
+`iskeyword` affects the behaviour of commands like normal mode `w`. See `:h 'iskeyword'`.
 
 # stuff I found useful while writing this plugin
 
