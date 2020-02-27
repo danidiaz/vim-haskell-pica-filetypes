@@ -1,5 +1,5 @@
 
-*haskell-pica-filetypes.txt*  Filetype dectection for some Haskell file types.
+*haskell-pica-filetypes.txt*  Filetype detection for some Haskell file types.
 
 CONTENTS				     
 
