@@ -26,3 +26,6 @@ Basic syntax highlighting for the *cabal-project* and *cabal-config* filetypes.
 - `:h ftdetect`.
 - `:h iskeyword`
 - [Can I disable continuation of comments to the next line in Vim?](https://superuser.com/questions/271023/can-i-disable-continuation-of-comments-to-the-next-line-in-vim)
+- `:h comments`
+- `:h formatoptions`
+- `:h fo-table`
