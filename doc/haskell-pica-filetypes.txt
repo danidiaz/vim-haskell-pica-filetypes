@@ -13,26 +13,38 @@ FILETYPE DETECTION				*haskell-pica-filetypes-detect*
 
 Filetype detection for the following files:
 
-- cabal.project as filetype cabal-project
-- cabal.project.local as filetype cabal-project
+- cabal.project and cabal.project.local as filetype cabal-project
 - cabal.config and */cabal/config as filetype cabal-config
+- GHC package environment files as filetype ghc-env
 
 ==============================================================================
 SYNTAX HIGHLIGHTING				*haskell-pica-filetypes-syntax*
 
-Basic syntax highlighting for the cabal-project and cabal-config filetypes.
+Basic syntax highlighting for the following filetypes:
+
+- cabal-project
+- cabal-config
+- ghc-env
 
 ==============================================================================
 ISKEYWORD CHANGES			*haskell-pica-filetypes-iskeyword*
 
-The single quote ' is added to 'iskeyword' for the haskell filetype.
+The single quote ' is added to 'iskeyword' for the following filetypes:
 
-The hypen - is added to 'iskeyword' for the cabal, cabal-project and
-cabal-config filetypes.
+- haskell
+
+The hypen - is added to 'iskeyword' for the following filetypes:
+
+- cabal
+- cabal-project 
+- cabal-config
+- ghc-env
 
 ==============================================================================
 CHANGELOG				      *haskell-pica-filetypes-changelog*
 
+1.1.0   2020-xx-xx
+	- Support for ghc package environment files.
 1.0.0	2020-02-27		     
 	- First release.
 

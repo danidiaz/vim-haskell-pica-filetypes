@@ -1,24 +1,38 @@
 # vim-haskell-pica-filetypes
 
+Vim filetype detection and syntax highlighting for Haskell-related file types
+that do not have them configured out-of-the-box.
+
 ## filetype detection
 
-This plugin provides filetype detection for the following files:
+Filetype detection for the following files:
 
-- `cabal.project` as filetype *cabal-project*
-- `cabal.project.local` as filetype *cabal-project*
-- `cabal.config` and `*/cabal/config` as filetype *cabal-config*
+- `cabal.project` and `cabal.project.local` as filetype `cabal-project`
+- `cabal.config` and `*/cabal/config` as filetype `cabal-config`
+- [GHC package environment files](https://downloads.haskell.org/ghc/latest/docs/html/users_guide/packages.html#package-environments) as filetype `ghc-env`
 
 ## syntax highlighting
 
-Basic syntax highlighting for the *cabal-project* and *cabal-config* filetypes.
+Basic syntax highlighting for the following filetypes:
+
+- `cabal-project`
+- `cabal-config`
+- `ghc-env`
 
 ## changes to 'iskeyword'
 
-- This plugin adds the single quote `'` to `iskeyword` for the `haskell` filetype—reasonable, because it is a valid part of identifiers.
+The single quote `'` is added to `'iskeyword'` for the following filetypes:
 
-- This plugin adds the hypen `-` to `iskeyword` for the `cabal`, `cabal-project` and `cabal-config` filetypes—reasonable, because many stanza names and package names have hypens.
+- haskell
 
-`iskeyword` affects the behaviour of commands like normal mode `w`. See `:h 'iskeyword'`.
+The hypen `-` is added to `'iskeyword'` for the following filetypes:
+
+- cabal
+- cabal-project 
+- cabal-config
+- ghc-env
+
+`'iskeyword'` affects the behaviour of commands like normal mode `w`. See `:h 'iskeyword'`.
 
 # stuff I found useful while writing this plugin
 
