@@ -1,6 +1,6 @@
 # vim-haskell-pica-filetypes
 
-Vim filetype detection and syntax highlighting for Haskell-related file types
+Vim filetype detection and syntax highlighting for Haskell-related filetypes
 that do not have them configured out-of-the-box.
 
 ## filetype detection
