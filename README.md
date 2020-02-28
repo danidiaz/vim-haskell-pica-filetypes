@@ -23,14 +23,14 @@ Basic syntax highlighting for the following filetypes:
 
 The single quote `'` is added to `'iskeyword'` for the following filetypes:
 
-- haskell
+- `haskell`
 
 The hypen `-` is added to `'iskeyword'` for the following filetypes:
 
-- cabal
-- cabal-project 
-- cabal-config
-- ghc-env
+- `cabal`
+- `cabal-project`
+- `cabal-config`
+- `ghc-env`
 
 `'iskeyword'` affects the behaviour of commands like normal mode `w`. See `:h 'iskeyword'`.
 
