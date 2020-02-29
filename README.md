@@ -43,3 +43,4 @@ The hypen `-` is added to `'iskeyword'` for the following filetypes:
 - `:h comments`
 - `:h formatoptions`
 - `:h fo-table`
+- [Attack of the 5,000-line vimrc](https://vimways.org/2018/from-vimrc-to-vim/)
